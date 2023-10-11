@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5664424857832144962}
   - component: {fileID: 3884570553815064242}
   - component: {fileID: 8324858048229040171}
+  - component: {fileID: -168906766607213603}
   m_Layer: 0
   m_Name: DragonEgg
   m_TagString: Dragon Egg
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: be854585e6d2761428cc88e35c11880a, type: 2}
+  - {fileID: 2100000, guid: 9f663aa0d3dc3f44389306ed68c6c668, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -133,3 +134,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-168906766607213603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290422881986922967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cf0da8a496a793468bba8f4b2ecc77b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
