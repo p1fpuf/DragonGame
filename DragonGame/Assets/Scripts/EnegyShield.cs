@@ -1,13 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EnegyShield : MonoBehaviour
 {
+    public TextMeshProUGUI scoreGT;
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameObject scoreGO = GameObject.Find("Score");
+        scoreGT = scoreGO.GetComponent<TextMeshProUGUI>();
+        scoreGT.text = "0";
     }
 
     // Update is called once per frame
@@ -28,5 +32,8 @@ public class EnegyShield : MonoBehaviour
         {
             Destroy(Collided);
         }
+        int score = int.Parse(scoreGT.text);
+        score += 1;
+        scoreGT.text = score.ToString();
     }
 }
